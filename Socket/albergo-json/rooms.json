@@ -1,0 +1,74 @@
+{
+  "room1": {
+    "number": 11,
+    "category": "normale",
+    "beds": 1,
+    "floor": 1,
+    "prenotation": {
+      "start_date": { "day": "14", "month": "12", "year": "2023" },
+      "end_date": { "day": "16", "month": "12", "year": "2023" },
+      "extras": {
+        "refrigerator": false,
+        "safe": false,
+        "breakfast": false,
+        "parking": false
+      },
+      "customer": {
+        "name": "William",
+        "surname": "Di Bella",
+        "age": "1",
+        "cost": 120
+      },
+      "guest1": { "name": "", "surname": "", "age": 0 },
+      "guest2": { "name": "", "surname": "", "age": 0 }
+    }
+  },
+  "room2": {
+    "number": 21,
+    "category": "lussuosa",
+    "beds": 2,
+    "floor": 2,
+    "prenotation": {
+      "start_date": { "day": "12", "month": "12", "year": "2023" },
+      "end_date": { "day": "13", "month": "12", "year": "2023" },
+      "extras": {
+        "refrigerator": false,
+        "safe": false,
+        "breakfast": false,
+        "parking": false
+      },
+      "customer": {
+        "name": "William",
+        "surname": "Di Bella",
+        "age": "18",
+        "cost": 180
+      },
+      "guest1": { "name": "", "surname": "", "age": 0 },
+      "guest2": { "name": "", "surname": "", "age": 0 }
+    }
+  },
+  "room3": {
+    "number": 31,
+    "category": "lussuosa",
+    "beds": 3,
+    "floor": 3,
+    "prenotation": {
+      "start_date": { "day": "01", "month": "12", "year": "2021" },
+      "end_date": { "day": "02", "month": "12", "year": "2021" },
+      "extras": {
+        "refrigerator": true,
+        "safe": true,
+        "breakfast": true,
+        "parking": true
+      },
+      "customer": {
+        "name": "Jeff",
+        "surname": "Bezos",
+        "age": "54",
+        "cost": 240
+      },
+      "guest1": { "name": "", "surname": "", "age": 0 },
+      "guest2": { "name": "", "surname": "", "age": 0 }
+    }
+  }
+}
