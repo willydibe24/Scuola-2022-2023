@@ -14,8 +14,8 @@
         "parking": false
       },
       "customer": {
-        "name": "William",
-        "surname": "Di Bella",
+        "name": "Mario",
+        "surname": "Rossi",
         "age": "1",
         "cost": 120
       },
@@ -38,8 +38,8 @@
         "parking": false
       },
       "customer": {
-        "name": "William",
-        "surname": "Di Bella",
+        "name": "Mario",
+        "surname": "Rossi",
         "age": "18",
         "cost": 180
       },
