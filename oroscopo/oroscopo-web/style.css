@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#audiofile {
+    display: none;
+}
+
+.container-background {
+    height: 100vh;
+    background: url('https://gsud.cdn-immedia.net/2022/01/oroscopo-7.jpg');
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container {    
+    width: 80%;
+    max-width: 600px;
+    min-height: 350px;
+    background: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    display: grid;
+}
+
+.container-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-sides {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    min-height: 250px;
+    margin-top: 20px;
+}
+
+.container-header h1 {
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 2rem;
+    text-align: center;
+    color: rgb(27, 0, 122);
+    background: rgba(151, 45, 250, 0.671);
+}
+
+.container-left, .container-right {
+    width: 48%;
+}
+
+.container-form {
+    height: 100%;
+}
+
+.container-form form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-form p {
+    margin: 0;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#submit-button {
+    width: 100%;
+    height: 35px;
+    outline: none; 
+    background: white;
+    color:rgb(77, 5, 145);
+    border: solid 1px rgb(77, 5, 145);
+    border-radius: 2rem;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background: rgb(93, 24, 158);
+    color: white;
+}
+
+.message-box {
+    height: 100%;
+    padding: 0 5%;
+    border-radius: 1rem;
+    background:rgba(130, 9, 243, 0.164);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.message-box-header h3 {
+    margin: 0;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+}
+
+.message-box-paragraph {
+    text-align: left;
+    font-size: .8rem;
+}
